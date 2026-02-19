@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
  labels:
    app: events-web
- name: events-web
+ name: events-web-v2
 spec:
  replicas: 1
  selector:

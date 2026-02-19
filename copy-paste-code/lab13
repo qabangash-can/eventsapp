@@ -9,7 +9,7 @@ spec:
  template:
    spec:
      containers:
-     - image: your-dockerhub-id/events-job:v1.0
+     - image: qabangashcan/events-job:v1.0
        name: db-init-job
        imagePullPolicy: "Always"
        env:
